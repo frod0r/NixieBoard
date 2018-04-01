@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -82,6 +82,7 @@
 <hole x="6" y="50" drill="3"/>
 <hole x="66" y="50" drill="3"/>
 <hole x="66" y="6" drill="3"/>
+<hole x="6" y="6" drill="3"/>
 </plain>
 <libraries>
 <library name="switch" urn="urn:adsk.eagle:library:380">
@@ -2842,7 +2843,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="36M3542" x="144" y="8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="RTC" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04" package3d_urn="urn:adsk.eagle:package:22407/2" value="" x="114" y="6"/>
-<element name="+180V(TEST)" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="6" y="6"/>
+<element name="+180V(TEST)" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="6" y="12"/>
 <element name="L7809" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="78XXS" package3d_urn="urn:adsk.eagle:package:30342/1" value="" x="158" y="18" rot="R180"/>
 <element name="L7805CV" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="78XXS" package3d_urn="urn:adsk.eagle:package:30342/1" value="" x="158" y="26" rot="R180"/>
 </elements>
@@ -3937,7 +3938,6 @@ design rules under a new name.</description>
 <contactref element="Q5" pad="E"/>
 <contactref element="Q12" pad="E"/>
 <contactref element="+180V(TEST)" pad="1"/>
-<wire x1="10.92" y1="6" x2="6" y2="6" width="1.27" layer="16"/>
 <wire x1="10.92" y1="6" x2="14" y2="6" width="1.27" layer="16"/>
 <wire x1="14" y1="6" x2="16" y2="8" width="1.27" layer="16"/>
 <wire x1="16" y1="8" x2="16" y2="11" width="1.27" layer="16"/>
@@ -4003,6 +4003,8 @@ design rules under a new name.</description>
 <wire x1="67.6336" y1="15.9954" x2="69.0814" y2="17.4432" width="0.8128" layer="16"/>
 <wire x1="71.977" y1="32.8864" x2="72" y2="33.08" width="0.8128" layer="16"/>
 <wire x1="67.6336" y1="15.9954" x2="67.67" y2="15.94" width="0.8128" layer="16"/>
+<wire x1="10.92" y1="14" x2="8.92" y2="12" width="1.27" layer="1"/>
+<wire x1="8.92" y1="12" x2="6" y2="12" width="1.27" layer="1"/>
 </signal>
 <signal name="N$52">
 <contactref element="R36" pad="2"/>

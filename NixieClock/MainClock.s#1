@@ -25609,6 +25609,10 @@ But I keep it to avoid confusion</text>
 <approved hash="113,2,249,160.515,MIN,,,,,"/>
 <approved hash="113,2,291,159.515,HOUR,,,,,"/>
 <approved hash="113,2,326,158.245,RESET,,,,,"/>
+<approved hash="113,1,45.7728,157,OFF/ON,,,,,"/>
+<approved hash="113,1,36,170.773,12-35V/9V,,,,,"/>
+<approved hash="113,2,214.46,132.496,+180V(TEST),,,,,"/>
+<approved hash="113,1,8,161.597,L7809,,,,,"/>
 <approved hash="113,1,-0.8993,197.597,L7805CV,,,,,"/>
 </errors>
 </schematic>

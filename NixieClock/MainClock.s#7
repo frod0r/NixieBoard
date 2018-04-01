@@ -24680,7 +24680,7 @@ but am not entirely sure</text>
 <text x="36" y="111" size="1.778" layer="91">Note:
 Numbering of these Resistors is a bit Strange.
 But I keep it to avoid confusion</text>
-<text x="106" y="165" size="1.778" layer="91">ToDo Alling to Grid. Make connection points at 3way intersections visible</text>
+<text x="106" y="165" size="1.778" layer="88">ToDo Alling to Grid. Make connection points at 3way intersections visible -&gt; Done but because Eagle always starts with inch it got a bit crooked but now all connections are set right.</text>
 </plain>
 <instances>
 <instance part="R26" gate="G$1" x="60" y="106" smashed="yes">
