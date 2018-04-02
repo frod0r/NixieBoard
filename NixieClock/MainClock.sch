@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24293,6 +24293,8 @@ grid 2.54 mm</description>
 <part name="+180V(TEST)" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="L7809" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1"/>
 <part name="L7805CV" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXS" device="" package3d_urn="urn:adsk.eagle:package:30342/1"/>
+<part name="CATHODDETOX" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="31-XX" device="" package3d_urn="urn:adsk.eagle:package:27487/1"/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24665,6 +24667,13 @@ but am not entirely sure</text>
 <wire x1="0.38" y1="157.48" x2="-5.08" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="ANALOG_2" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC2(ADC2)"/>
+<wire x1="33.02" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
+<label x="33.02" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -24772,6 +24781,8 @@ But I keep it to avoid confusion</text>
 <instance part="GND20" gate="1" x="241.3" y="12.7"/>
 <instance part="GND21" gate="1" x="210.82" y="17.78"/>
 <instance part="+180V(TEST)" gate="G$1" x="213" y="131"/>
+<instance part="CATHODDETOX" gate="1" x="352" y="156" rot="R270"/>
+<instance part="GND22" gate="1" x="360" y="139"/>
 </instances>
 <busses>
 </busses>
@@ -24950,6 +24961,12 @@ But I keep it to avoid confusion</text>
 <pinref part="Q15" gate="G$1" pin="C"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="241.3" y1="20.32" x2="241.3" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CATHODDETOX" gate="1" pin="S"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+<wire x1="357.08" y1="156" x2="360" y2="156" width="0.1524" layer="91"/>
+<wire x1="360" y1="156" x2="360" y2="141.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -25591,6 +25608,14 @@ But I keep it to avoid confusion</text>
 <pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="220.54" y1="158" x2="220.54" y2="162" width="0.1524" layer="91"/>
 <wire x1="220.54" y1="162" x2="211.08" y2="162" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ANALOG_2" class="0">
+<segment>
+<pinref part="CATHODDETOX" gate="1" pin="P"/>
+<wire x1="346.92" y1="156" x2="340.36" y2="156" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="156" x2="340.36" y2="157.48" width="0.1524" layer="91"/>
+<label x="335" y="156" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

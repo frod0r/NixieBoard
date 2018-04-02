@@ -25600,8 +25600,6 @@ But I keep it to avoid confusion</text>
 <approved hash="104,1,-15.24,93.98,IC1,AVCC,VCC,,,"/>
 <approved hash="104,2,266.7,38.1,IC3,VCC+,9V,,,"/>
 <approved hash="113,1,2.27433,144.61,9V/12-35V-DC-IN,,,,,"/>
-<approved hash="113,1,7.62,162.077,L7809,,,,,"/>
-<approved hash="113,1,-0.8993,197.597,L7805CV,,,,,"/>
 <approved hash="113,1,-47.6783,175.3,POWER_LED,,,,,"/>
 <approved hash="113,2,76.6971,163.496,GND,,,,,"/>
 <approved hash="113,2,78.7732,143.226,CATHODE,,,,,"/>
@@ -25611,8 +25609,7 @@ But I keep it to avoid confusion</text>
 <approved hash="113,2,249,160.515,MIN,,,,,"/>
 <approved hash="113,2,291,159.515,HOUR,,,,,"/>
 <approved hash="113,2,326,158.245,RESET,,,,,"/>
-<approved hash="113,1,45.9528,157.48,OFF/ON,,,,,"/>
-<approved hash="113,1,35.56,170.413,12-35V/9V,,,,,"/>
+<approved hash="113,1,-0.8993,197.597,L7805CV,,,,,"/>
 </errors>
 </schematic>
 </drawing>

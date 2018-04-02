@@ -24188,7 +24188,7 @@ grid 2.54 mm</description>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BUZZER" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="F/TMB" device="" package3d_urn="urn:adsk.eagle:package:5260/1"/>
 <part name="R34" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="0411/15" package3d_urn="urn:adsk.eagle:package:26093/1" value="100 Ohm"/>
-<part name="9V/12-35V-DC-IN" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="JACK-PLUG" device="1" package3d_urn="urn:adsk.eagle:package:7494/1"/>
+<part name="9V/12-35V" library="con-jack" library_urn="urn:adsk.eagle:library:154" deviceset="JACK-PLUG" device="1" package3d_urn="urn:adsk.eagle:package:7494/1"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 <part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="CPOL-EU" device="E5-8.5" package3d_urn="urn:adsk.eagle:package:25860/1" value="100uF"/>
@@ -24308,7 +24308,7 @@ but am not entirely sure</text>
 <instance part="GND1" gate="1" x="-53.34" y="38.1"/>
 <instance part="BUZZER" gate="1" x="-43.18" y="55.88" rot="R270"/>
 <instance part="R34" gate="G$1" x="-27.94" y="60.96" rot="R180"/>
-<instance part="9V/12-35V-DC-IN" gate="G$1" x="0" y="143"/>
+<instance part="9V/12-35V" gate="G$1" x="0" y="143"/>
 <instance part="GND2" gate="1" x="13" y="132"/>
 <instance part="D4" gate="1" x="27.94" y="144.78"/>
 <instance part="C9" gate="G$1" x="20" y="173" rot="R270"/>
@@ -24382,11 +24382,11 @@ but am not entirely sure</text>
 <pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="9V/12-35V-DC-IN" gate="G$1" pin="1"/>
+<pinref part="9V/12-35V" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="13" y1="134.54" x2="13" y2="140" width="0.1524" layer="91"/>
 <wire x1="13" y1="140" x2="8" y2="140" width="0.1524" layer="91"/>
-<pinref part="9V/12-35V-DC-IN" gate="G$1" pin="2"/>
+<pinref part="9V/12-35V" gate="G$1" pin="2"/>
 <wire x1="8" y1="140" x2="5.08" y2="140.46" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="143" x2="8" y2="143" width="0.1524" layer="91"/>
 <wire x1="8" y1="143" x2="8" y2="140" width="0.1524" layer="91"/>
@@ -24553,7 +24553,7 @@ but am not entirely sure</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="9V/12-35V-DC-IN" gate="G$1" pin="3"/>
+<pinref part="9V/12-35V" gate="G$1" pin="3"/>
 <pinref part="D4" gate="1" pin="A"/>
 <wire x1="5.08" y1="145.54" x2="25.4" y2="144.78" width="0.1524" layer="91"/>
 </segment>
