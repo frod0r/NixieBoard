@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2538,79 +2538,70 @@ grid 2.54 mm</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<designrules name="FVM_default">
+<description language="de">&lt;b&gt;FVM Design Rules&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
-&lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
+Diese Design-Rules sind so gewählt, dass sie für 
+die Anlagen im Labor für Fertigungsverfahren der Mechatronik (FVM) passen. 
+Sollte ihre Platine besondere Anforderungen haben, sprechen Sie bitte mit den Laboringenieuren (-2387) und stimmen die Anforderungen mit diesen ab.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mdWireWire" value="0.3mm"/>
+<param name="mdWirePad" value="0.3mm"/>
+<param name="mdWireVia" value="0.3mm"/>
+<param name="mdPadPad" value="0.3mm"/>
+<param name="mdPadVia" value="0.3mm"/>
+<param name="mdViaVia" value="0.3mm"/>
+<param name="mdSmdPad" value="0.15mm"/>
+<param name="mdSmdVia" value="0.15mm"/>
+<param name="mdSmdSmd" value="0.15mm"/>
+<param name="mdViaViaSameLayer" value="0.2mm"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdCopperDimension" value="0.5mm"/>
+<param name="mdDrill" value="0.2mm"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
-<param name="msDrill" value="0.35mm"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msWidth" value="0.3mm"/>
+<param name="msDrill" value="0.4mm"/>
+<param name="msMicroVia" value="25mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
 <param name="rvPadBottom" value="0.25"/>
-<param name="rvViaOuter" value="0.25"/>
-<param name="rvViaInner" value="0.25"/>
-<param name="rvMicroViaOuter" value="0.25"/>
-<param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
-<param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
-<param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
-<param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
-<param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
-<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="rvViaOuter" value="0.4"/>
+<param name="rvViaInner" value="0.4"/>
+<param name="rvMicroViaOuter" value="0"/>
+<param name="rvMicroViaInner" value="0"/>
+<param name="rlMinPadTop" value="0.3mm"/>
+<param name="rlMaxPadTop" value="2.5mm"/>
+<param name="rlMinPadInner" value="0.3mm"/>
+<param name="rlMaxPadInner" value="2.5mm"/>
+<param name="rlMinPadBottom" value="0.3mm"/>
+<param name="rlMaxPadBottom" value="2.5mm"/>
+<param name="rlMinViaOuter" value="0.3mm"/>
+<param name="rlMaxViaOuter" value="2.5mm"/>
+<param name="rlMinViaInner" value="0.3mm"/>
+<param name="rlMaxViaInner" value="2.5mm"/>
+<param name="rlMinMicroViaOuter" value="2.5mm"/>
+<param name="rlMaxMicroViaOuter" value="25mm"/>
+<param name="rlMinMicroViaInner" value="2.5mm"/>
+<param name="rlMaxMicroViaInner" value="25mm"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
-<param name="mvStopFrame" value="1"/>
+<param name="mvStopFrame" value="0"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="0.075mm"/>
+<param name="mlMaxStopFrame" value="0.2mm"/>
 <param name="mlMinCreamFrame" value="0mil"/>
-<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0.2mm"/>
 <param name="mlViaStopLimit" value="0mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalIsolate" value="0.2mm"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
@@ -2792,7 +2783,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="160.032" y="32.349" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="160.032" y="36.794" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="GND" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="56" y="50"/>
+<element name="GND" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X01" package3d_urn="urn:adsk.eagle:package:22485/2" value="" x="56" y="50.5"/>
 <element name="HOUR" library="switch-omron" library_urn="urn:adsk.eagle:library:377" package="B3F-31XX" package3d_urn="urn:adsk.eagle:package:27487/1" value="" x="168" y="18" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="168" y="18" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="B3F-3100" x="168" y="18" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3025,6 +3016,12 @@ design rules under a new name.</description>
 </element>
 <element name="L7809" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="78XXS" package3d_urn="urn:adsk.eagle:package:30342/1" value="" x="158" y="18" rot="R180"/>
 <element name="L7805CV" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="78XXS" package3d_urn="urn:adsk.eagle:package:30342/1" value="" x="158" y="26" rot="R180"/>
+<element name="CATHODDETOX" library="switch-omron" library_urn="urn:adsk.eagle:library:377" package="B3F-31XX" package3d_urn="urn:adsk.eagle:package:27487/1" value="" x="149" y="51" rot="R180">
+<attribute name="MF" value="" x="149" y="51" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="B3F-3100" x="149" y="51" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_FARNELL" value="959704" x="149" y="51" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="36M3582" x="149" y="51" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -3074,6 +3071,7 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="L7809" pad="GND"/>
 <contactref element="L7805CV" pad="GND"/>
+<contactref element="CATHODDETOX" pad="2"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC2" pad="5"/>
@@ -3095,16 +3093,22 @@ design rules under a new name.</description>
 <vertex x="4" y="6"/>
 <vertex x="4" y="50"/>
 </polygon>
-<wire x1="136" y1="15.08" x2="133" y2="18.08" width="0.8128" layer="1"/>
-<wire x1="133" y1="18.08" x2="133" y2="19" width="0.8128" layer="1"/>
-<wire x1="133" y1="19" x2="130.44" y2="21.56" width="0.8128" layer="1"/>
-<wire x1="130.44" y1="21.56" x2="130.28" y2="21.56" width="0.8128" layer="1"/>
 <wire x1="91.81" y1="16.77" x2="95.3608" y2="13.2192" width="0.8128" layer="1"/>
 <wire x1="95.3608" y1="13.2192" x2="109.4250125" y2="13.2192" width="0.8128" layer="1"/>
 <wire x1="112.6442125" y1="10" x2="114" y2="10" width="0.8128" layer="1"/>
 <wire x1="109.4250125" y1="13.2192" x2="112.6442125" y2="10" width="0.8128" layer="1"/>
 <wire x1="114" y1="10" x2="115.27" y2="8.73" width="0.8128" layer="1"/>
 <wire x1="115.27" y1="8.73" x2="115.27" y2="6" width="0.8128" layer="1"/>
+<wire x1="130.28" y1="21.56" x2="131.4072" y2="20.4328" width="0.8128" layer="1"/>
+<wire x1="131.4072" y1="20.4328" x2="131.57160625" y2="20.4328" width="0.8128" layer="1"/>
+<wire x1="131.57160625" y1="20.4328" x2="136" y2="16.00440625" width="0.8128" layer="1"/>
+<wire x1="136" y1="16.00440625" x2="136" y2="15.08" width="0.8128" layer="1"/>
+<wire x1="148" y1="32.54" x2="143.08" y2="48" width="0" layer="19" extent="1-1"/>
+<wire x1="155.46" y1="28.54" x2="148" y2="32.54" width="0" layer="19" extent="1-1"/>
+<wire x1="131.57160625" y1="20.4328" x2="148" y2="32.54" width="0" layer="19" extent="1-1"/>
+<wire x1="122.66" y1="24.1" x2="130.28" y2="21.56" width="0" layer="19" extent="1-1"/>
+<wire x1="122.66" y1="26.64" x2="122.66" y2="24.1" width="0" layer="19" extent="1-1"/>
+<wire x1="114" y1="10" x2="122.66" y2="24.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC1" pad="9"/>
@@ -4216,6 +4220,21 @@ design rules under a new name.</description>
 <wire x1="151.1234" y1="15.9954" x2="151.606" y2="15.9954" width="0.8128" layer="1"/>
 <wire x1="154.9842" y1="20.8214" x2="155.46" y2="20.54" width="0.8128" layer="1"/>
 <wire x1="151.1234" y1="15.9954" x2="150.92" y2="16" width="0.8128" layer="1"/>
+</signal>
+<signal name="ANALOG_2">
+<contactref element="IC1" pad="25"/>
+<contactref element="CATHODDETOX" pad="1"/>
+<wire x1="138.8636" y1="19.30560625" x2="139" y2="19.16920625" width="0.508" layer="1"/>
+<wire x1="139" y1="19.16920625" x2="139" y2="15" width="0.508" layer="1"/>
+<wire x1="151.2606" y1="52.2446" x2="138.8636" y2="39.8476" width="0.508" layer="1"/>
+<wire x1="138.8636" y1="39.8476" x2="138.8636" y2="19.30560625" width="0.508" layer="1"/>
+<wire x1="139" y1="15" x2="137" y2="13" width="0.508" layer="1"/>
+<wire x1="123.6" y1="13" x2="122.66" y2="13.94" width="0.508" layer="1"/>
+<wire x1="131.3822875" y1="15.0068" x2="129.1777125" y2="15.0068" width="0.508" layer="1"/>
+<wire x1="133.3890875" y1="13" x2="131.3822875" y2="15.0068" width="0.508" layer="1"/>
+<wire x1="127.1709125" y1="13" x2="123.6" y2="13" width="0.508" layer="1"/>
+<wire x1="129.1777125" y1="15.0068" x2="127.1709125" y2="13" width="0.508" layer="1"/>
+<wire x1="137" y1="13" x2="133.3890875" y2="13" width="0.508" layer="1"/>
 </signal>
 </signals>
 </board>
