@@ -5196,6 +5196,11 @@ Based on the following sources:
 <wire x1="254.3" y1="57.84" x2="248" y2="57.84" width="0.1524" layer="91"/>
 <label x="250" y="58" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="N5" gate="G$1" pin="0"/>
+<wire x1="211.3" y1="58.84" x2="206" y2="58.84" width="0.1524" layer="91"/>
+<label x="206" y="59" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="1" class="0">
 <segment>
@@ -5512,13 +5517,6 @@ Based on the following sources:
 <wire x1="34.08" y1="21" x2="118" y2="21" width="0.1524" layer="91"/>
 <wire x1="118" y1="21" x2="118" y2="69" width="0.1524" layer="91"/>
 <wire x1="118" y1="69" x2="108.16" y2="69" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="10" class="0">
-<segment>
-<pinref part="N5" gate="G$1" pin="0"/>
-<wire x1="211.3" y1="58.84" x2="206" y2="58.84" width="0.1524" layer="91"/>
-<label x="206" y="59" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
