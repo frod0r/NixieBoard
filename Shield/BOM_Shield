@@ -1,0 +1,25 @@
+Partlist
+
+Exported from Shield.brd at 19.04.18 18:20
+
+EAGLE Version 8.7.1 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package  Library        Position (mm)         Orientation
+
+ANODE                   FE06     con-lsta       (6 28)                R270
+CATHODE                 FE10     con-lsta       (78 17.5)             R90
+GND                     1X01     pinhead        (56 50.5)             R0
+N1       IN-12B         IN-12    russian-nixies (24 28)               R180
+N2       IN-12B         IN-12    russian-nixies (46 28)               R180
+N3       IN-12B         IN-12    russian-nixies (90 28)               R180
+N4       IN-12B         IN-12    russian-nixies (112 28)              R180
+N5       IN-12B         IN-12    russian-nixies (140 28)              R180
+N6       IN-12B         IN-12    russian-nixies (160 28)              R180
+R1       3,3k           0309/12  resistor       (20 45.5)             R270
+R2       3,3k           0309/12  resistor       (42 46)               R270
+R3       3,3k           0309/12  resistor       (86 45.5)             R270
+R4       3,3k           0309/12  resistor       (108 45.5)            R270
+R5       3,3k           0309/12  resistor       (136 46)              R270
+R6       3,3k           0309/12  resistor       (156 46)              R270

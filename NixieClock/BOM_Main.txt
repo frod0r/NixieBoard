@@ -1,0 +1,98 @@
+Partlist
+
+Exported from MainClock.brd at 19.04.18 18:20
+
+EAGLE Version 8.7.1 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part        Value          Package      Library             Position (mm)         Orientation
+
++180V(TEST)                1X01         pinhead             (6 12)                R0
+9V/12-35V                  SPC4078      con-jack            (155.65 8.31)         R90
+12-35V/9V                  255SB        switch              (168 30)              R90
+ANODE                      1X06         pinhead             (6 28)                R270
+BUZZER      F/TMB          F/TMB        buzzer              (158 44)              R180
+C1          1uF 350v       E5-10,5      resistor            (70.21 15.94)         R0
+C2          470uF 25v      E5-10,5      resistor            (114 32)              R0
+C3          2n2            C025-024X044 resistor            (106 40.5)            R90
+C4          47pF           C025-024X044 resistor            (82 32)               R90
+C5          22pF           C025-025X050 resistor            (136 28)              R270
+C6          22pF           C025-025X050 resistor            (142 28)              R90
+C7          10uF 16V       E5-6         resistor            (148 30)              R270
+C8          100uF 50V      E5-8,5       resistor            (138 20)              R180
+C9          100uF          E5-8,5       resistor            (148 38)              R180
+C10         10uF 25V       E5-6         resistor            (148 22)              R180
+CATHODDETOX                B3F-31XX     switch-omron        (149 51)              R180
+CATHODE                    1X10         pinhead             (78 17.5)             R90
+D1          BYT01          F126-10      diode               (88 36)               R0
+D2          1N914          DO35-10      diode               (102 10)              R0
+D3          1N4004         DO41-10      diode               (156 16)              R180
+D4          1N4004         DO41-10      diode               (158 34)              R180
+GND                        1X01         pinhead             (56 50.5)             R0
+HOUR                       B3F-31XX     switch-omron        (168 18)              R90
+IC1         MEGA8-P        DIL28-3      atmel               (126.47 22.83)        R90
+IC2         74141N         DIL16        74xx-us             (88 15.5)             R90
+IC3         NE555          DIL-08       st-microelectronics (114 44)              R180
+L1          100uH 1A       MESC26       inductors           (100 36)              R90
+L7805CV                    78XXS        v-reg               (158 26)              R180
+L7809                      78XXS        v-reg               (158 18)              R180
+MIN                        B3F-31XX     switch-omron        (168 8)               R90
+NEON                       1X02         pinhead             (78 33)               R270
+OFF/ON                     255SB        switch              (168 42)              R90
+POWER_LED                  LED5MM       led                 (125.5 48)            R270
+Q1          MPSA 42        TO92         transistor          (46 46)               R270
+Q2          MPSA 42        TO92         transistor          (46 40)               R270
+Q3          MPSA 42        TO92         transistor          (46 32)               R270
+Q4          MPSA 42        TO92         transistor          (46 24)               R270
+Q5          MPSA 92        TO92-EBC     transistor          (26 16)               R90
+Q6          MPSA 92        TO92-EBC     transistor          (26 48)               R90
+Q7          MPSA 92        TO92-EBC     transistor          (26 40)               R90
+Q8          MPSA 92        TO92-EBC     transistor          (26 32)               R90
+Q9          MPSA 92        TO92-EBC     transistor          (26 24)               R90
+Q10         IRF740         TO220BV      transistor-power    (102 20)              R0
+Q11         BC547          TO92         transistor          (93.89 47.14)         R90
+Q12         MPSA 92        TO92-EBC     transistor          (26 8)                R90
+Q13         MPSA 42        TO92         transistor          (46 16)               R270
+Q14         MPSA 42        TO92         transistor          (46 8)                R270
+Q15         MPSA55         TO92-BCE     transistor          (102 6)               R180
+QUARTZ      16.000MHz      HC49/S       crystal             (138 36)              R0
+R1          33k            0309/10      resistor            (56 46)               R180
+R2          33k            0309/10      resistor            (56 40)               R180
+R3          33k            0309/10      resistor            (56 32)               R180
+R4          33k            0309/10      resistor            (56 24)               R180
+R5          33k            0309/10      resistor            (114 18)              R0
+R6          100k           0309/10      resistor            (16 46)               R180
+R7          100k           0309/10      resistor            (16 38)               R180
+R8          100k           0309/10      resistor            (16 30)               R180
+R9          100k           0309/10      resistor            (16 22)               R180
+R10         470k           0309/10      resistor            (38 48)               R180
+R11         470k           0309/10      resistor            (38 40)               R180
+R12         470k           0309/10      resistor            (38 32)               R180
+R13         470k           0309/10      resistor            (38 24)               R180
+R14         1k             0309/10      resistor            (114 24)              R0
+R15         1k             0309/10      resistor            (90 31)               R0
+R16         10k            0309/10      resistor            (106 32)              R270
+R17         220k           0309/10      resistor            (88 42)               R180
+R18         407R           0309/10      resistor            (80.02 45.55)         R90
+R19         1k             RTRIM3339P   resistor            (86 48)               R90
+R20         15k            0309/10      resistor            (16 50)               R0
+R21         15k            0309/10      resistor            (16 42)               R0
+R22         15k            0309/10      resistor            (16 34)               R0
+R23         15k            0309/10      resistor            (16 18)               R0
+R24         15k            0309/10      resistor            (16 26)               R0
+R25         1k             0309/10      resistor            (114 12)              R180
+R26         15k            0309/10      resistor            (16 10)               R0
+R27         220            0309/10      resistor            (138 48)              R180
+R28         100k           0309/10      resistor            (16 14)               R180
+R29         470k           0309/10      resistor            (38 16)               R180
+R30         100k           0309/10      resistor            (16 6)                R180
+R31         470k           0309/10      resistor            (38 8)                R180
+R32         33k            0309/10      resistor            (56 16)               R180
+R33         33k            0309/10      resistor            (56 8)                R180
+R34         100 Ohm        0411/15      resistor            (138 44)              R0
+R35         1k             0309/10      resistor            (136 10)              R270
+R36         220k           0309/10      resistor            (74 38)               R180
+R37         220k           0309/10      resistor            (72 28)               R270
+RESET                      B3F-10XX     switch-omron        (144 8)               R0
+RTC                        1X04         pinhead             (114 6)               R0
